@@ -48,6 +48,10 @@ Partial Class Form1
         Me.field4 = New System.Windows.Forms.TextBox()
         Me.field5 = New System.Windows.Forms.TextBox()
         Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
+        Me.firstbutton = New System.Windows.Forms.Button()
+        Me.prevbutton = New System.Windows.Forms.Button()
+        Me.nextbutton = New System.Windows.Forms.Button()
+        Me.lastbutton = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
@@ -57,6 +61,7 @@ Partial Class Form1
         Me.PictureBox1.Location = New System.Drawing.Point(441, 142)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(162, 119)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
         '
@@ -233,11 +238,51 @@ Partial Class Form1
         '
         Me.OpenFileDialog1.FileName = "OpenFileDialog1"
         '
+        'firstbutton
+        '
+        Me.firstbutton.Location = New System.Drawing.Point(300, 379)
+        Me.firstbutton.Name = "firstbutton"
+        Me.firstbutton.Size = New System.Drawing.Size(94, 29)
+        Me.firstbutton.TabIndex = 12
+        Me.firstbutton.Text = "First"
+        Me.firstbutton.UseVisualStyleBackColor = True
+        '
+        'prevbutton
+        '
+        Me.prevbutton.Location = New System.Drawing.Point(441, 379)
+        Me.prevbutton.Name = "prevbutton"
+        Me.prevbutton.Size = New System.Drawing.Size(94, 29)
+        Me.prevbutton.TabIndex = 13
+        Me.prevbutton.Text = "Previous"
+        Me.prevbutton.UseVisualStyleBackColor = True
+        '
+        'nextbutton
+        '
+        Me.nextbutton.Location = New System.Drawing.Point(570, 379)
+        Me.nextbutton.Name = "nextbutton"
+        Me.nextbutton.Size = New System.Drawing.Size(94, 29)
+        Me.nextbutton.TabIndex = 14
+        Me.nextbutton.Text = "Next"
+        Me.nextbutton.UseVisualStyleBackColor = True
+        '
+        'lastbutton
+        '
+        Me.lastbutton.Location = New System.Drawing.Point(694, 379)
+        Me.lastbutton.Name = "lastbutton"
+        Me.lastbutton.Size = New System.Drawing.Size(94, 29)
+        Me.lastbutton.TabIndex = 15
+        Me.lastbutton.Text = "Last"
+        Me.lastbutton.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.lastbutton)
+        Me.Controls.Add(Me.nextbutton)
+        Me.Controls.Add(Me.prevbutton)
+        Me.Controls.Add(Me.firstbutton)
         Me.Controls.Add(Me.field5)
         Me.Controls.Add(Me.field4)
         Me.Controls.Add(Me.field3)
@@ -287,4 +332,8 @@ Partial Class Form1
     Friend WithEvents ToolStripMenuItem1 As ToolStripMenuItem
     Friend WithEvents PizzaHutToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents OpenFileDialog1 As OpenFileDialog
+    Friend WithEvents firstbutton As Button
+    Friend WithEvents prevbutton As Button
+    Friend WithEvents nextbutton As Button
+    Friend WithEvents lastbutton As Button
 End Class
