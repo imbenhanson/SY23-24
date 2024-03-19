@@ -130,73 +130,73 @@ Partial Class Form1
         'NewToolStripMenuItem
         '
         Me.NewToolStripMenuItem.Name = "NewToolStripMenuItem"
-        Me.NewToolStripMenuItem.Size = New System.Drawing.Size(170, 26)
+        Me.NewToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
         Me.NewToolStripMenuItem.Text = "New"
         '
         'SaveToolStripMenuItem
         '
         Me.SaveToolStripMenuItem.Name = "SaveToolStripMenuItem"
-        Me.SaveToolStripMenuItem.Size = New System.Drawing.Size(170, 26)
+        Me.SaveToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
         Me.SaveToolStripMenuItem.Text = "Save"
         '
         'McDonaldsToolStripMenuItem
         '
         Me.McDonaldsToolStripMenuItem.Name = "McDonaldsToolStripMenuItem"
-        Me.McDonaldsToolStripMenuItem.Size = New System.Drawing.Size(170, 26)
+        Me.McDonaldsToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
         Me.McDonaldsToolStripMenuItem.Text = "McDonald's"
         '
         'StarbucksToolStripMenuItem
         '
         Me.StarbucksToolStripMenuItem.Name = "StarbucksToolStripMenuItem"
-        Me.StarbucksToolStripMenuItem.Size = New System.Drawing.Size(170, 26)
+        Me.StarbucksToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
         Me.StarbucksToolStripMenuItem.Text = "Starbucks"
         '
         'SubwayToolStripMenuItem
         '
         Me.SubwayToolStripMenuItem.Name = "SubwayToolStripMenuItem"
-        Me.SubwayToolStripMenuItem.Size = New System.Drawing.Size(170, 26)
+        Me.SubwayToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
         Me.SubwayToolStripMenuItem.Text = "Subway"
         '
         'TacoBellToolStripMenuItem
         '
         Me.TacoBellToolStripMenuItem.Name = "TacoBellToolStripMenuItem"
-        Me.TacoBellToolStripMenuItem.Size = New System.Drawing.Size(170, 26)
+        Me.TacoBellToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
         Me.TacoBellToolStripMenuItem.Text = "Taco Bell"
         '
         'ChickFilAToolStripMenuItem
         '
         Me.ChickFilAToolStripMenuItem.Name = "ChickFilAToolStripMenuItem"
-        Me.ChickFilAToolStripMenuItem.Size = New System.Drawing.Size(170, 26)
+        Me.ChickFilAToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
         Me.ChickFilAToolStripMenuItem.Text = "Chick-Fil-A"
         '
         'WendysToolStripMenuItem
         '
         Me.WendysToolStripMenuItem.Name = "WendysToolStripMenuItem"
-        Me.WendysToolStripMenuItem.Size = New System.Drawing.Size(170, 26)
+        Me.WendysToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
         Me.WendysToolStripMenuItem.Text = "Wendy's"
         '
         'BurgerKingToolStripMenuItem
         '
         Me.BurgerKingToolStripMenuItem.Name = "BurgerKingToolStripMenuItem"
-        Me.BurgerKingToolStripMenuItem.Size = New System.Drawing.Size(170, 26)
+        Me.BurgerKingToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
         Me.BurgerKingToolStripMenuItem.Text = "Burger King"
         '
         'DominosToolStripMenuItem
         '
         Me.DominosToolStripMenuItem.Name = "DominosToolStripMenuItem"
-        Me.DominosToolStripMenuItem.Size = New System.Drawing.Size(170, 26)
+        Me.DominosToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
         Me.DominosToolStripMenuItem.Text = "Domino's"
         '
         'ToolStripMenuItem1
         '
         Me.ToolStripMenuItem1.Name = "ToolStripMenuItem1"
-        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(170, 26)
+        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(224, 26)
         Me.ToolStripMenuItem1.Text = "Dunkin"
         '
         'PizzaHutToolStripMenuItem
         '
         Me.PizzaHutToolStripMenuItem.Name = "PizzaHutToolStripMenuItem"
-        Me.PizzaHutToolStripMenuItem.Size = New System.Drawing.Size(170, 26)
+        Me.PizzaHutToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
         Me.PizzaHutToolStripMenuItem.Text = "Pizza Hut"
         '
         'field1
