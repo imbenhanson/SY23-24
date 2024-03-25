@@ -169,6 +169,8 @@ Partial Class Form2
         '
         'Button7
         '
+        Me.Button7.BackgroundImage = CType(resources.GetObject("Button7.BackgroundImage"), System.Drawing.Image)
+        Me.Button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button7.Location = New System.Drawing.Point(773, 221)
         Me.Button7.Name = "Button7"
         Me.Button7.Size = New System.Drawing.Size(117, 96)
@@ -177,6 +179,8 @@ Partial Class Form2
         '
         'Button8
         '
+        Me.Button8.BackgroundImage = CType(resources.GetObject("Button8.BackgroundImage"), System.Drawing.Image)
+        Me.Button8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button8.Location = New System.Drawing.Point(944, 221)
         Me.Button8.Name = "Button8"
         Me.Button8.Size = New System.Drawing.Size(117, 96)
@@ -193,6 +197,8 @@ Partial Class Form2
         '
         'Button10
         '
+        Me.Button10.BackgroundImage = CType(resources.GetObject("Button10.BackgroundImage"), System.Drawing.Image)
+        Me.Button10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button10.Location = New System.Drawing.Point(773, 355)
         Me.Button10.Name = "Button10"
         Me.Button10.Size = New System.Drawing.Size(117, 96)
@@ -201,6 +207,8 @@ Partial Class Form2
         '
         'Button11
         '
+        Me.Button11.BackgroundImage = CType(resources.GetObject("Button11.BackgroundImage"), System.Drawing.Image)
+        Me.Button11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button11.Location = New System.Drawing.Point(622, 355)
         Me.Button11.Name = "Button11"
         Me.Button11.Size = New System.Drawing.Size(117, 96)
@@ -209,6 +217,8 @@ Partial Class Form2
         '
         'Button12
         '
+        Me.Button12.BackgroundImage = CType(resources.GetObject("Button12.BackgroundImage"), System.Drawing.Image)
+        Me.Button12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button12.Location = New System.Drawing.Point(459, 355)
         Me.Button12.Name = "Button12"
         Me.Button12.Size = New System.Drawing.Size(117, 96)
@@ -283,7 +293,7 @@ Partial Class Form2
         '
         'TextBox7
         '
-        Me.TextBox7.Location = New System.Drawing.Point(639, 322)
+        Me.TextBox7.Location = New System.Drawing.Point(632, 322)
         Me.TextBox7.Name = "TextBox7"
         Me.TextBox7.Size = New System.Drawing.Size(99, 27)
         Me.TextBox7.TabIndex = 28
@@ -296,6 +306,7 @@ Partial Class Form2
         Me.TextBox8.Name = "TextBox8"
         Me.TextBox8.Size = New System.Drawing.Size(99, 27)
         Me.TextBox8.TabIndex = 29
+        Me.TextBox8.Text = "$59.99"
         Me.TextBox8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox9
@@ -304,6 +315,7 @@ Partial Class Form2
         Me.TextBox9.Name = "TextBox9"
         Me.TextBox9.Size = New System.Drawing.Size(99, 27)
         Me.TextBox9.TabIndex = 30
+        Me.TextBox9.Text = "$69.99"
         Me.TextBox9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox10
@@ -316,18 +328,20 @@ Partial Class Form2
         '
         'TextBox11
         '
-        Me.TextBox11.Location = New System.Drawing.Point(791, 456)
+        Me.TextBox11.Location = New System.Drawing.Point(786, 456)
         Me.TextBox11.Name = "TextBox11"
         Me.TextBox11.Size = New System.Drawing.Size(99, 27)
         Me.TextBox11.TabIndex = 36
+        Me.TextBox11.Text = "$59.99"
         Me.TextBox11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox12
         '
-        Me.TextBox12.Location = New System.Drawing.Point(647, 456)
+        Me.TextBox12.Location = New System.Drawing.Point(631, 456)
         Me.TextBox12.Name = "TextBox12"
         Me.TextBox12.Size = New System.Drawing.Size(99, 27)
         Me.TextBox12.TabIndex = 35
+        Me.TextBox12.Text = "$59.99"
         Me.TextBox12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox13
@@ -336,6 +350,7 @@ Partial Class Form2
         Me.TextBox13.Name = "TextBox13"
         Me.TextBox13.Size = New System.Drawing.Size(99, 27)
         Me.TextBox13.TabIndex = 34
+        Me.TextBox13.Text = "$69.99"
         Me.TextBox13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox14
