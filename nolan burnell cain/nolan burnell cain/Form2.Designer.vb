@@ -57,6 +57,17 @@ Partial Class Form2
         Me.TextBox14 = New System.Windows.Forms.TextBox()
         Me.TextBox15 = New System.Windows.Forms.TextBox()
         Me.TextBox16 = New System.Windows.Forms.TextBox()
+        Me.Button16 = New System.Windows.Forms.Button()
+        Me.Button17 = New System.Windows.Forms.Button()
+        Me.Button18 = New System.Windows.Forms.Button()
+        Me.Button19 = New System.Windows.Forms.Button()
+        Me.TextBox17 = New System.Windows.Forms.TextBox()
+        Me.TextBox18 = New System.Windows.Forms.TextBox()
+        Me.TextBox19 = New System.Windows.Forms.TextBox()
+        Me.TextBox20 = New System.Windows.Forms.TextBox()
+        Me.MoneyTextBox = New System.Windows.Forms.TextBox()
+        Me.BuyButton = New System.Windows.Forms.Button()
+        Me.Button20 = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -64,9 +75,9 @@ Partial Class Form2
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(24, 503)
+        Me.Button1.Location = New System.Drawing.Point(137, 503)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(94, 29)
+        Me.Button1.Size = New System.Drawing.Size(125, 29)
         Me.Button1.TabIndex = 4
         Me.Button1.Text = "Next Page"
         Me.Button1.UseVisualStyleBackColor = True
@@ -189,6 +200,8 @@ Partial Class Form2
         '
         'Button9
         '
+        Me.Button9.BackgroundImage = CType(resources.GetObject("Button9.BackgroundImage"), System.Drawing.Image)
+        Me.Button9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button9.Location = New System.Drawing.Point(944, 355)
         Me.Button9.Name = "Button9"
         Me.Button9.Size = New System.Drawing.Size(117, 96)
@@ -219,7 +232,7 @@ Partial Class Form2
         '
         Me.Button12.BackgroundImage = CType(resources.GetObject("Button12.BackgroundImage"), System.Drawing.Image)
         Me.Button12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button12.Location = New System.Drawing.Point(459, 355)
+        Me.Button12.Location = New System.Drawing.Point(450, 355)
         Me.Button12.Name = "Button12"
         Me.Button12.Size = New System.Drawing.Size(117, 96)
         Me.Button12.TabIndex = 20
@@ -275,7 +288,7 @@ Partial Class Form2
         '
         'TextBox5
         '
-        Me.TextBox5.Location = New System.Drawing.Point(311, 323)
+        Me.TextBox5.Location = New System.Drawing.Point(307, 323)
         Me.TextBox5.Name = "TextBox5"
         Me.TextBox5.Size = New System.Drawing.Size(99, 27)
         Me.TextBox5.TabIndex = 26
@@ -320,10 +333,11 @@ Partial Class Form2
         '
         'TextBox10
         '
-        Me.TextBox10.Location = New System.Drawing.Point(959, 456)
+        Me.TextBox10.Location = New System.Drawing.Point(951, 456)
         Me.TextBox10.Name = "TextBox10"
         Me.TextBox10.Size = New System.Drawing.Size(99, 27)
         Me.TextBox10.TabIndex = 37
+        Me.TextBox10.Text = "$59.99"
         Me.TextBox10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox11
@@ -355,7 +369,7 @@ Partial Class Form2
         '
         'TextBox14
         '
-        Me.TextBox14.Location = New System.Drawing.Point(319, 457)
+        Me.TextBox14.Location = New System.Drawing.Point(306, 457)
         Me.TextBox14.Name = "TextBox14"
         Me.TextBox14.Size = New System.Drawing.Size(99, 27)
         Me.TextBox14.TabIndex = 33
@@ -364,7 +378,7 @@ Partial Class Form2
         '
         'TextBox15
         '
-        Me.TextBox15.Location = New System.Drawing.Point(171, 457)
+        Me.TextBox15.Location = New System.Drawing.Point(163, 457)
         Me.TextBox15.Name = "TextBox15"
         Me.TextBox15.Size = New System.Drawing.Size(99, 27)
         Me.TextBox15.TabIndex = 32
@@ -380,12 +394,125 @@ Partial Class Form2
         Me.TextBox16.Text = "$29.99"
         Me.TextBox16.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
+        'Button16
+        '
+        Me.Button16.BackgroundImage = CType(resources.GetObject("Button16.BackgroundImage"), System.Drawing.Image)
+        Me.Button16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button16.Location = New System.Drawing.Point(613, 28)
+        Me.Button16.Name = "Button16"
+        Me.Button16.Size = New System.Drawing.Size(108, 142)
+        Me.Button16.TabIndex = 38
+        Me.Button16.UseVisualStyleBackColor = True
+        '
+        'Button17
+        '
+        Me.Button17.BackgroundImage = CType(resources.GetObject("Button17.BackgroundImage"), System.Drawing.Image)
+        Me.Button17.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button17.Location = New System.Drawing.Point(737, 28)
+        Me.Button17.Name = "Button17"
+        Me.Button17.Size = New System.Drawing.Size(108, 142)
+        Me.Button17.TabIndex = 39
+        Me.Button17.UseVisualStyleBackColor = True
+        '
+        'Button18
+        '
+        Me.Button18.BackgroundImage = CType(resources.GetObject("Button18.BackgroundImage"), System.Drawing.Image)
+        Me.Button18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button18.Location = New System.Drawing.Point(860, 28)
+        Me.Button18.Name = "Button18"
+        Me.Button18.Size = New System.Drawing.Size(108, 142)
+        Me.Button18.TabIndex = 40
+        Me.Button18.UseVisualStyleBackColor = True
+        '
+        'Button19
+        '
+        Me.Button19.BackgroundImage = CType(resources.GetObject("Button19.BackgroundImage"), System.Drawing.Image)
+        Me.Button19.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button19.Location = New System.Drawing.Point(978, 28)
+        Me.Button19.Name = "Button19"
+        Me.Button19.Size = New System.Drawing.Size(108, 142)
+        Me.Button19.TabIndex = 41
+        Me.Button19.UseVisualStyleBackColor = True
+        '
+        'TextBox17
+        '
+        Me.TextBox17.Location = New System.Drawing.Point(631, 176)
+        Me.TextBox17.Name = "TextBox17"
+        Me.TextBox17.Size = New System.Drawing.Size(71, 27)
+        Me.TextBox17.TabIndex = 42
+        Me.TextBox17.Text = "$25"
+        Me.TextBox17.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox18
+        '
+        Me.TextBox18.Location = New System.Drawing.Point(755, 176)
+        Me.TextBox18.Name = "TextBox18"
+        Me.TextBox18.Size = New System.Drawing.Size(71, 27)
+        Me.TextBox18.TabIndex = 43
+        Me.TextBox18.Text = "$25"
+        Me.TextBox18.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox19
+        '
+        Me.TextBox19.Location = New System.Drawing.Point(880, 176)
+        Me.TextBox19.Name = "TextBox19"
+        Me.TextBox19.Size = New System.Drawing.Size(71, 27)
+        Me.TextBox19.TabIndex = 44
+        Me.TextBox19.Text = "$25"
+        Me.TextBox19.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox20
+        '
+        Me.TextBox20.Location = New System.Drawing.Point(1001, 176)
+        Me.TextBox20.Name = "TextBox20"
+        Me.TextBox20.Size = New System.Drawing.Size(71, 27)
+        Me.TextBox20.TabIndex = 45
+        Me.TextBox20.Text = "$25"
+        Me.TextBox20.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'MoneyTextBox
+        '
+        Me.MoneyTextBox.Location = New System.Drawing.Point(797, 503)
+        Me.MoneyTextBox.Name = "MoneyTextBox"
+        Me.MoneyTextBox.Size = New System.Drawing.Size(125, 27)
+        Me.MoneyTextBox.TabIndex = 46
+        Me.MoneyTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'BuyButton
+        '
+        Me.BuyButton.Location = New System.Drawing.Point(956, 502)
+        Me.BuyButton.Name = "BuyButton"
+        Me.BuyButton.Size = New System.Drawing.Size(94, 29)
+        Me.BuyButton.TabIndex = 47
+        Me.BuyButton.Text = "Buy"
+        Me.BuyButton.UseVisualStyleBackColor = True
+        '
+        'Button20
+        '
+        Me.Button20.Location = New System.Drawing.Point(12, 503)
+        Me.Button20.Name = "Button20"
+        Me.Button20.Size = New System.Drawing.Size(119, 29)
+        Me.Button20.TabIndex = 48
+        Me.Button20.Text = "Previous Page"
+        Me.Button20.UseVisualStyleBackColor = True
+        '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(1087, 544)
+        Me.Controls.Add(Me.Button20)
+        Me.Controls.Add(Me.BuyButton)
+        Me.Controls.Add(Me.MoneyTextBox)
+        Me.Controls.Add(Me.TextBox20)
+        Me.Controls.Add(Me.TextBox19)
+        Me.Controls.Add(Me.TextBox18)
+        Me.Controls.Add(Me.TextBox17)
+        Me.Controls.Add(Me.Button19)
+        Me.Controls.Add(Me.Button18)
+        Me.Controls.Add(Me.Button17)
+        Me.Controls.Add(Me.Button16)
         Me.Controls.Add(Me.TextBox10)
         Me.Controls.Add(Me.TextBox11)
         Me.Controls.Add(Me.TextBox12)
@@ -421,7 +548,8 @@ Partial Class Form2
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Button1)
         Me.Name = "Form2"
-        Me.Text = "Form2"
+        Me.Text = "$25"
+        Me.TopMost = True
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
@@ -463,4 +591,15 @@ Partial Class Form2
     Friend WithEvents TextBox14 As TextBox
     Friend WithEvents TextBox15 As TextBox
     Friend WithEvents TextBox16 As TextBox
+    Friend WithEvents Button16 As Button
+    Friend WithEvents Button17 As Button
+    Friend WithEvents Button18 As Button
+    Friend WithEvents Button19 As Button
+    Friend WithEvents TextBox17 As TextBox
+    Friend WithEvents TextBox18 As TextBox
+    Friend WithEvents TextBox19 As TextBox
+    Friend WithEvents TextBox20 As TextBox
+    Friend WithEvents MoneyTextBox As TextBox
+    Friend WithEvents BuyButton As Button
+    Friend WithEvents Button20 As Button
 End Class
