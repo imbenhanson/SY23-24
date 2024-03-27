@@ -1,8 +1,8 @@
 ﻿Public Class Form2
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Me.Hide()
-        Dim f1 As New Form1
-        f1.ShowDialog()
+        Dim f3 As New Form3
+        f3.ShowDialog()
         Me.Show()
     End Sub
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
@@ -102,8 +102,8 @@
 
     Private Sub Button20_Click(sender As Object, e As EventArgs) Handles Button20.Click
         Me.Hide()
-        Dim f3 As New Form3
-        f3.ShowDialog()
+        Dim f1 As New Form1
+        f1.ShowDialog()
         Me.Show()
     End Sub
 End Class
