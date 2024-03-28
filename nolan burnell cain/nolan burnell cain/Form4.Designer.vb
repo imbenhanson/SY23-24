@@ -77,7 +77,7 @@ Partial Class Form4
         Me.TextBox20.Name = "TextBox20"
         Me.TextBox20.Size = New System.Drawing.Size(71, 27)
         Me.TextBox20.TabIndex = 86
-        Me.TextBox20.Text = "$25"
+        Me.TextBox20.Text = "$49.99"
         Me.TextBox20.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox19
@@ -86,7 +86,7 @@ Partial Class Form4
         Me.TextBox19.Name = "TextBox19"
         Me.TextBox19.Size = New System.Drawing.Size(71, 27)
         Me.TextBox19.TabIndex = 85
-        Me.TextBox19.Text = "$25"
+        Me.TextBox19.Text = "$149.99"
         Me.TextBox19.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox18
@@ -95,7 +95,7 @@ Partial Class Form4
         Me.TextBox18.Name = "TextBox18"
         Me.TextBox18.Size = New System.Drawing.Size(71, 27)
         Me.TextBox18.TabIndex = 84
-        Me.TextBox18.Text = "$25"
+        Me.TextBox18.Text = "$149.99"
         Me.TextBox18.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Button19
@@ -134,7 +134,7 @@ Partial Class Form4
         Me.TextBox10.Name = "TextBox10"
         Me.TextBox10.Size = New System.Drawing.Size(99, 27)
         Me.TextBox10.TabIndex = 78
-        Me.TextBox10.Text = "$59.99"
+        Me.TextBox10.Text = "$14.99"
         Me.TextBox10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox11
@@ -152,7 +152,7 @@ Partial Class Form4
         Me.TextBox12.Name = "TextBox12"
         Me.TextBox12.Size = New System.Drawing.Size(99, 27)
         Me.TextBox12.TabIndex = 76
-        Me.TextBox12.Text = "$59.99"
+        Me.TextBox12.Text = "$5.99"
         Me.TextBox12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox13
@@ -161,7 +161,7 @@ Partial Class Form4
         Me.TextBox13.Name = "TextBox13"
         Me.TextBox13.Size = New System.Drawing.Size(99, 27)
         Me.TextBox13.TabIndex = 75
-        Me.TextBox13.Text = "$69.99"
+        Me.TextBox13.Text = "$9.99"
         Me.TextBox13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox14
@@ -170,7 +170,7 @@ Partial Class Form4
         Me.TextBox14.Name = "TextBox14"
         Me.TextBox14.Size = New System.Drawing.Size(99, 27)
         Me.TextBox14.TabIndex = 74
-        Me.TextBox14.Text = "$59.99"
+        Me.TextBox14.Text = "$449.99"
         Me.TextBox14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox15
@@ -179,7 +179,7 @@ Partial Class Form4
         Me.TextBox15.Name = "TextBox15"
         Me.TextBox15.Size = New System.Drawing.Size(99, 27)
         Me.TextBox15.TabIndex = 73
-        Me.TextBox15.Text = "$39.99"
+        Me.TextBox15.Text = "$200.00"
         Me.TextBox15.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox16
@@ -188,7 +188,7 @@ Partial Class Form4
         Me.TextBox16.Name = "TextBox16"
         Me.TextBox16.Size = New System.Drawing.Size(99, 27)
         Me.TextBox16.TabIndex = 72
-        Me.TextBox16.Text = "$29.99"
+        Me.TextBox16.Text = "$749.99"
         Me.TextBox16.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox9
@@ -197,7 +197,7 @@ Partial Class Form4
         Me.TextBox9.Name = "TextBox9"
         Me.TextBox9.Size = New System.Drawing.Size(99, 27)
         Me.TextBox9.TabIndex = 71
-        Me.TextBox9.Text = "$69.99"
+        Me.TextBox9.Text = "$49.99"
         Me.TextBox9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox8
@@ -206,7 +206,7 @@ Partial Class Form4
         Me.TextBox8.Name = "TextBox8"
         Me.TextBox8.Size = New System.Drawing.Size(99, 27)
         Me.TextBox8.TabIndex = 70
-        Me.TextBox8.Text = "$59.99"
+        Me.TextBox8.Text = "$159.99"
         Me.TextBox8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox7
@@ -224,7 +224,7 @@ Partial Class Form4
         Me.TextBox6.Name = "TextBox6"
         Me.TextBox6.Size = New System.Drawing.Size(99, 27)
         Me.TextBox6.TabIndex = 68
-        Me.TextBox6.Text = "$59.99"
+        Me.TextBox6.Text = "$149.99"
         Me.TextBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox5
@@ -233,7 +233,7 @@ Partial Class Form4
         Me.TextBox5.Name = "TextBox5"
         Me.TextBox5.Size = New System.Drawing.Size(99, 27)
         Me.TextBox5.TabIndex = 67
-        Me.TextBox5.Text = "$59.99"
+        Me.TextBox5.Text = "$449.99"
         Me.TextBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox4
@@ -242,7 +242,7 @@ Partial Class Form4
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(99, 27)
         Me.TextBox4.TabIndex = 66
-        Me.TextBox4.Text = "$39.99"
+        Me.TextBox4.Text = "$1,499.99"
         Me.TextBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox3
@@ -251,7 +251,7 @@ Partial Class Form4
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(99, 27)
         Me.TextBox3.TabIndex = 65
-        Me.TextBox3.Text = "$19.99"
+        Me.TextBox3.Text = "$999.99"
         Me.TextBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Button9
@@ -288,9 +288,9 @@ Partial Class Form4
         '
         Me.Button12.BackgroundImage = CType(resources.GetObject("Button12.BackgroundImage"), System.Drawing.Image)
         Me.Button12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button12.Location = New System.Drawing.Point(449, 327)
+        Me.Button12.Location = New System.Drawing.Point(467, 327)
         Me.Button12.Name = "Button12"
-        Me.Button12.Size = New System.Drawing.Size(117, 96)
+        Me.Button12.Size = New System.Drawing.Size(99, 96)
         Me.Button12.TabIndex = 61
         Me.Button12.UseVisualStyleBackColor = True
         '
@@ -418,7 +418,7 @@ Partial Class Form4
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(122, 27)
         Me.TextBox1.TabIndex = 48
-        Me.TextBox1.Text = "Buy our games!"
+        Me.TextBox1.Text = "Buy our stuff!"
         '
         'PictureBox2
         '
@@ -451,7 +451,7 @@ Partial Class Form4
         '
         'BuyButton
         '
-        Me.BuyButton.Location = New System.Drawing.Point(955, 478)
+        Me.BuyButton.Location = New System.Drawing.Point(524, 476)
         Me.BuyButton.Name = "BuyButton"
         Me.BuyButton.Size = New System.Drawing.Size(94, 29)
         Me.BuyButton.TabIndex = 89
@@ -460,7 +460,7 @@ Partial Class Form4
         '
         'MoneyTextBox
         '
-        Me.MoneyTextBox.Location = New System.Drawing.Point(796, 479)
+        Me.MoneyTextBox.Location = New System.Drawing.Point(320, 478)
         Me.MoneyTextBox.Name = "MoneyTextBox"
         Me.MoneyTextBox.Size = New System.Drawing.Size(125, 27)
         Me.MoneyTextBox.TabIndex = 88
@@ -468,7 +468,7 @@ Partial Class Form4
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(136, 479)
+        Me.Button1.Location = New System.Drawing.Point(943, 479)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(125, 29)
         Me.Button1.TabIndex = 87

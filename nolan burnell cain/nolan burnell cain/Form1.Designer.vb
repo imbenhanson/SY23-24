@@ -37,7 +37,7 @@ Partial Class Form1
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(884, 482)
+        Me.Button1.Location = New System.Drawing.Point(903, 482)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(100, 31)
         Me.Button1.TabIndex = 0
@@ -91,7 +91,7 @@ Partial Class Form1
         Me.Label3.Font = New System.Drawing.Font("Showcard Gothic", 19.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.Label3.Location = New System.Drawing.Point(308, 109)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(471, 43)
+        Me.Label3.Size = New System.Drawing.Size(456, 42)
         Me.Label3.TabIndex = 5
         Me.Label3.Text = "We Don't Shame, We Game"
         '

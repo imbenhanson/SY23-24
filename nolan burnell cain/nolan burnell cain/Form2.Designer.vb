@@ -75,7 +75,7 @@ Partial Class Form2
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(137, 503)
+        Me.Button1.Location = New System.Drawing.Point(925, 501)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(125, 29)
         Me.Button1.TabIndex = 4
@@ -472,7 +472,7 @@ Partial Class Form2
         '
         'MoneyTextBox
         '
-        Me.MoneyTextBox.Location = New System.Drawing.Point(797, 503)
+        Me.MoneyTextBox.Location = New System.Drawing.Point(380, 503)
         Me.MoneyTextBox.Name = "MoneyTextBox"
         Me.MoneyTextBox.Size = New System.Drawing.Size(125, 27)
         Me.MoneyTextBox.TabIndex = 46
@@ -480,7 +480,7 @@ Partial Class Form2
         '
         'BuyButton
         '
-        Me.BuyButton.Location = New System.Drawing.Point(956, 502)
+        Me.BuyButton.Location = New System.Drawing.Point(553, 503)
         Me.BuyButton.Name = "BuyButton"
         Me.BuyButton.Size = New System.Drawing.Size(94, 29)
         Me.BuyButton.TabIndex = 47
