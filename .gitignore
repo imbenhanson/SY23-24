@@ -396,3 +396,11 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+MySite/img/gitkrak.png
+
+MySite/src/HTMLPage1.html
+
+MySite/img/nolancrane.jpg
+
+*.html
