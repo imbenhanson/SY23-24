@@ -1,0 +1,22 @@
+﻿<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="ccnum" HorizontalAlignment="Left" Margin="226,101,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="292" Height="42" FontFamily="Bahnschrift"/>
+        <TextBox x:Name="holdname" HorizontalAlignment="Left" Margin="225,28,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="292" Height="42" FontFamily="Bahnschrift"/>
+        <TextBox x:Name="expdate" HorizontalAlignment="Left" Margin="226,169,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="290" Height="42" FontFamily="Bahnschrift"/>
+        <TextBox x:Name="phone" HorizontalAlignment="Left" Margin="225,308,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="292" Height="42" FontFamily="Bahnschrift"/>
+        <Button x:Name="paybutton" Content="Purchase" HorizontalAlignment="Left" Margin="226,366,0,0" VerticalAlignment="Top" Height="42" Width="292" FontFamily="Bahnschrift"/>
+        <Label Content="Card Holder Name" HorizontalAlignment="Left" Margin="225,-3,0,0" VerticalAlignment="Top" Width="185"/>
+        <Label Content="Card Number" HorizontalAlignment="Left" Margin="225,70,0,0" VerticalAlignment="Top" Width="185"/>
+        <Label Content="Expiration Date" HorizontalAlignment="Left" Margin="225,143,0,0" VerticalAlignment="Top" Width="122"/>
+        <Label Content="Phone Number" HorizontalAlignment="Left" Margin="225,282,0,0" VerticalAlignment="Top" Width="307"/>
+        <TextBox x:Name="email" HorizontalAlignment="Left" Margin="225,242,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="292" Height="42" FontFamily="Bahnschrift"/>
+        <Label Content="Email" HorizontalAlignment="Left" Margin="225,216,0,0" VerticalAlignment="Top" Width="185"/>
+    </Grid>
+</Window>

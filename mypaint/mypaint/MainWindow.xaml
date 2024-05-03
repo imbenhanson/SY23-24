@@ -1,0 +1,52 @@
+﻿<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:mypaint"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="13*"/>
+            <ColumnDefinition Width="87*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="211*"/>
+            <RowDefinition Height="134*"/>
+            <RowDefinition Height="89*"/>
+        </Grid.RowDefinitions>
+
+        <Canvas x:Name="drawingcanvas" Grid.RowSpan="3" Margin="72,5,0,5" Grid.Column="1" Width="624" Height="424.04">
+            <Rectangle HorizontalAlignment="Center" Height="429" Stroke="Black" VerticalAlignment="Top" Width="624" Grid.RowSpan="3" Fill="#FF342727" Grid.Column="1" Canvas.Top="-2"/>
+        </Canvas>
+        <Rectangle x:Name="color1rectangle" HorizontalAlignment="Left" Height="59" Stroke="Black" VerticalAlignment="Top" Width="71" Fill="Red"/>
+        <Rectangle x:Name="color2rectangle" HorizontalAlignment="Left" Height="32" Stroke="Black" VerticalAlignment="Top" Width="71" Margin="5,113,0,0" Fill="#FF00BEFF"/>
+        <Rectangle x:Name="color3rectangle" HorizontalAlignment="Left" Height="38" Stroke="Black" VerticalAlignment="Top" Width="76" Margin="2,159,0,0" Fill="#FFFF00F9"/>
+        <Rectangle x:Name="color4rectangle" HorizontalAlignment="Left" Height="40" Stroke="Black" VerticalAlignment="Top" Width="76" Margin="5,1,0,0" Grid.Row="1" Fill="#FFFFAF00"/>
+        <Slider x:Name="widthslider" HorizontalAlignment="Left" Margin="10,64,0,0" VerticalAlignment="Top" Width="120" Minimum="5" Maximum="50" Grid.ColumnSpan="2"/>
+        <Slider x:Name="heightslider" HorizontalAlignment="Left" Margin="10,82,0,0" VerticalAlignment="Top" Width="120" Maximum="50" Minimum="5" Grid.ColumnSpan="2"/>
+        <Button Grid.Column="1" Content="Clear" HorizontalAlignment="Left" Margin="34,8,0,0" VerticalAlignment="Top" Height="63" Click="Button_Click"/>
+        <Button Grid.Column="1" Content="Undo" HorizontalAlignment="Left" Margin="34,100,0,0" VerticalAlignment="Top" Height="57" Click="Button_Click_1"/>
+        <Button x:Name="rectanglebutton" Grid.Column="1" Content="Rectangle" HorizontalAlignment="Left" Margin="16,179,0,0" VerticalAlignment="Top" Height="57" Click="Button_Click_2" Grid.RowSpan="2"/>
+        <Button x:Name="ellipsebutton" Grid.Column="1" Content="Ellipse" HorizontalAlignment="Left" Margin="28,48,0,0" Grid.Row="1" VerticalAlignment="Top" Height="63"/>
+        <Label x:Name="shapelabel" Grid.Column="1" Content="Shape Label" HorizontalAlignment="Right" Margin="0,123,622,0" Grid.Row="1" VerticalAlignment="Top" Grid.RowSpan="2"/>
+        <Button x:Name="savebutton" Grid.Column="1" Content="Save" HorizontalAlignment="Left" Margin="28,30,0,0" Grid.Row="2" VerticalAlignment="Top" Click="Button_Click_3"/>
+        <Rectangle x:Name="color1" Height="30" Margin="5,41,8,0" Grid.Row="1" Stroke="Black" VerticalAlignment="Top" Fill="Black"/>
+        <Rectangle x:Name="color2" HorizontalAlignment="Center" Height="26" Margin="0,76,0,0" Grid.Row="1" Stroke="Black" VerticalAlignment="Top" Width="100" Fill="Black"/>
+        <Slider x:Name="r" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="0,0,0,6" Grid.Row="1" VerticalAlignment="Bottom" Width="120" RenderTransformOrigin="0.5,0.5" Maximum="255">
+            <Slider.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="6.089"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="0.96"/>
+                </TransformGroup>
+            </Slider.RenderTransform>
+        </Slider>
+        <Slider x:Name="g" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="0,6,0,0" Grid.Row="2" VerticalAlignment="Top" Width="120" Maximum="255"/>
+        <Slider x:Name="b" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="0,27,0,0" Grid.Row="2" VerticalAlignment="Top" Width="120" Maximum="255"/>
+        <Slider x:Name="angleslider" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="0,50,0,0" Grid.Row="2" VerticalAlignment="Top" Width="120" Minimum="-360" Maximum="360"/>
+
+    </Grid>
+</Window>
